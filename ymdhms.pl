@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 use strict;
 use warnings;
-use Getopt::Long;
+use Getopt::Long qw(:config no_ignore_case autoabbrev);
 use Time::Local;
 use POSIX qw(strftime);
 use List::Util qw(product);
